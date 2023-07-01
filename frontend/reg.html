@@ -131,7 +131,7 @@
 			async function registerUser(event) {
 				event.preventDefault()
 				const username = document.getElementById('username').value
-				const password = docume	nt.getElementById('password').value
+				const password = document.getElementById('password').value
 				const email = document.getElementById('email').value
 
 				const result = await fetch('http://localhost:3000/api/user/reg_user', {
